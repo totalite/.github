@@ -1,5 +1,5 @@
-# Totalite 
-This is the github organisation of the totalite team. All of the code that goes in to making the totalite solution work, from sensor formware to client dashboards, is hosted in a repository here.
+# TotaLite 
+This is the github organisation of the TotaLite team. All of the code that goes in to making the TotaLite solution work, from sensor formware to client dashboards, is hosted in a repository here.
 The rest of this readme will contain our way of working with git(hub). If you are not a contributor this will probably not be of interest to you.
 
 ## Repositories

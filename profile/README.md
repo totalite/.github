@@ -1,6 +1,6 @@
 # Totalite 
 This is the github organisation of the totalite team. All of the code that goes in to making the totalite solution work, from sensor formware to client dashboards, is hosted in a repository here.
-The rest of this readme will contain our way of working with (git)hub. If you are not a contributor this will probably not be of interest to you.
+The rest of this readme will contain our way of working with git(hub). If you are not a contributor this will probably not be of interest to you.
 
 ## Repositories
 All repositories should be named in this format: `totalite.max_three_words`. For example the repository that contains the code that can talk to our sensor hardware is named `totalite.iot.sensor_interface_library`.
@@ -14,7 +14,7 @@ All repositories must follow these rules:
 ## CI/CD
 We use github actions as our CI/CD system. Every repository that needs to run actions on build or in reponse to an action in git must use github actions to do so.
 We expect repositories to have some of these actions:
-+ `build_test.yml` an action that runs a build (if applicable) linting, unit tests, and integration tests
++ `build_test.yml` an action that runs a build (if applicable), linting, unit tests, and integration tests
   + this should run on push
 + `deploy.yml` an action that deploys the architecture required to run the project. For packages this can be omitted
   + this action should run on manual dispatch

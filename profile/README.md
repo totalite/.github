@@ -1,9 +1,9 @@
 # TotaLite 
-This is the github organisation of the TotaLite team. All of the code that goes in to making the TotaLite solution work, from sensor formware to client dashboards, is hosted in a repository here.
+This is the github organisation of the TotaLite team. All of the code that goes in to making the TotaLite solution work, from sensor firmware to client dashboards, is hosted in a repository here.
 The rest of this readme will contain our way of working with git(hub). If you are not a contributor this will probably not be of interest to you.
 
 ## Repositories
-All repositories should be named in this format: `totalite.max_three_words`. For example the repository that contains the code that can talk to our sensor hardware is named `totalite.iot.sensor_interface_library`.
+All repositories should be named in this format: `totalite.max_three_words`. For example the repository that contains the code that can talk to our sensor hardware is named `totalite.sensor_interface_library`.
 All repositories must follow these rules:
 + All repositories must be private
 + All repositories must include a `.gitignore` file
